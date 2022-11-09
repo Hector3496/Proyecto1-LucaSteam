@@ -1,0 +1,20 @@
+03.- HISTORIA DE USUARIO:
+
+Yo como admin quiero tener un listado de todos los videojuegos con sus datos
+
+01.- Crear un método mostrarVideojuego()- Capa Main
+02.- Crear un método mostrarVideojuego()- Capa Services
+03.- Crear un método mostrarVideojuego() para mostrar el listado de videojuegos con sus datos - Capa Datos
+	03.01.- Crear la interface MostrarVideojuegos - Capa Datos
+	03.02.- Crear la clase MostrarVideojuegosImpl - Capa Datos
+	03.03.- Dar de alta el método mostrarVideojuego():List<Videojuegos> en la interface MostrarVideojuegos
+	03.04.- Crear el algoritmo mostrarVideojuego():List<Videojuegos> en la clase MostrarVideojuegosImpl
+	03.05.- Documentar el método con anotaciones para que los lechones que vengan lo entiendan
+04.- Crear un menú de datos y poner la opción 3 para mostrar el listado de videojuegos por teclado
+
+05.- Prueba unitaria JUnit
+	05.01.- prueba unitaria01 - Probar datos de tipo incorrecto cuando por teclado introducidos algo que no sea 3
+	05.02.- prueba unitaria02 - Comprobar que hay datos en :List<Videojuegos>
+	05.03.- prueba unitaria03 - Comprobar que la suma de los juegos de Nintendo es igual a los de cada plataforma individual
+	05.04.- prueba unitaria04 - Comprobar que se puede editar
+

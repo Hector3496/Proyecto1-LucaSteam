@@ -1,0 +1,20 @@
+02.- HISTORIA DE USUARIO:
+
+Yo como admin quiero dar de alta un videojuego y almacenarlo en una lista dinámica
+
+01.- Crear un método altaVideojuego()- Capa Main
+02.- Crear un método altaVideojuego()- Capa Services
+03.- Crear un método altaVideojuego() para dar de alta un videojuego - Capa Datos
+	03.01.- Crear la interface AltaVideojuegos - Capa Datos
+	03.02.- Crear la clase AltaVideojuegosImpl - Capa Datos
+	03.03.- Dar de alta el método altaVideojuego():List<Videojuegos> en la interface AltaVideojuegos
+	03.04.- Crear el algoritmo altaVideojuego():List<Videojuegos> en la clase AltaVideojuegosImpl
+	03.05.- Documentar el método con anotaciones para que los lechones que vengan lo entiendan
+04.- Crear un menú de datos y poner la opción 2 para añadir un videojuego por teclado
+
+05.- Prueba unitaria JUnit
+	05.01.- prueba unitaria01 - Comprobar que pasa si ponemos una fecha anterior a 1958(primer año)
+	05.02.- prueba unitaria02 - Incluir un dato de una plataforma no existente
+	05.03.- prueba unitaria03 - Comprobar que un videojuego se ha dado de alta
+	05.04.- prueba unitaria04 - Comrobar que la lista se mantiene íntegra antes de añadir un videojuego
+
