@@ -1,10 +1,11 @@
 package main;
 
+import gui.AbrirTienda;
+
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		AbrirTienda.abrir();
 	}
 
 }
