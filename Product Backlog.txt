@@ -1,0 +1,15 @@
+PRODUCT BACKLOG:
+
+01.- Yo como admin quiero dar de alta la información que tengo almacenada en un fichero para tener unos datos iniciales
+02.- Yo como admin quiero dar de alta un videojuego y almacenarlo en una lista dinámica
+03.- Yo como admin quiero tener un listado de todos los videojuegos con sus datos
+04.- Yo como administrador quiero obtener un listado de todos los videojuegos por categoría con sus datos
+05.- Yo como administrador quiero obtener un listado de todos los videojuegos por plataforma con sus datos  
+06.- Yo como administrador quiero buscar videojuego concreto por el name
+07.- Yo como administrador quiero buscar videojuego concreto por la platform
+08.- Yo como administrador quiero buscar videojuego concreto por el year como administrador
+09.- Yo como administrador quiero buscar videojuego concreto por el genre como administrador
+10.- Yo como administrador quiero buscar videojuego concreto por publisher como administrador
+11.- Yo como administrador quiero filtrar como administrador para buscar (Videojuego concreto con sus respectivos datos)
+12.- Yo como administrador quiero buscar como administrador el juego más antiguo
+13.- Yo como administrador quiero buscar como administrador el juego más moderno
