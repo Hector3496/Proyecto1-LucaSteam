@@ -11,10 +11,8 @@ Yo como admin quiero tener un listado de todos los videojuegos con sus datos
 	03.04.- Crear el algoritmo mostrarVideojuego():List<Videojuegos> en la clase MostrarVideojuegosImpl
 	03.05.- Documentar el método con anotaciones para que los lechones que vengan lo entiendan
 04.- Crear un menú de datos y poner la opción 3 para mostrar el listado de videojuegos por teclado
-
-05.- Prueba unitaria JUnit
-	05.01.- prueba unitaria01 - Probar datos de tipo incorrecto cuando por teclado introducidos algo que no sea 3
-	05.02.- prueba unitaria02 - Comprobar que hay datos en :List<Videojuegos>
-	05.03.- prueba unitaria03 - Comprobar que la suma de los juegos de Nintendo es igual a los de cada plataforma individual
-	05.04.- prueba unitaria04 - Comprobar que se puede editar
+05.- Prueba unitaria01 - Probar datos de tipo incorrecto cuando por teclado introducidos algo que no sea 3
+06.- Prueba unitaria02 - Comprobar que hay datos en :List<Videojuegos>
+07.- Prueba unitaria03 - Comprobar que la suma de los juegos de Nintendo es igual a los de cada plataforma individual
+08.- Prueba unitaria04 - Comprobar que se puede editar
 

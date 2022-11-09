@@ -15,10 +15,8 @@ Yo como admin quiero dar de alta la información que tengo almacenada en un fich
 	06.05.- Documentar el método con anotaciones para que los lechones que vengan lo entiendan
 07.- Crear entidad Videojuego - Capa Model -atributos entidad Videojuego
 08.- Crear un menú de datos y poner la opción 1 para dar de alta 
-
-09.- Prueba unitaria JUnit
-	09.01.- prueba unitaria01 - Comprobar que el fichero que vamos a importar existe
-	09.02.- prueba unitaria02 - Asegurar que una lista vacía funciona
-	09.03.- prueba unitaria03 - Comprobar que el fichero que vamos a importar que no existe
-	09.04.- prueba unitaria04 - Comprobar que los datos se leen bien
+09.- Prueba unitaria01 - Comprobar que el fichero que vamos a importar existe
+10.- Prueba unitaria02 - Asegurar que una lista vacía funciona
+11.- Prueba unitaria03 - Comprobar que el fichero que vamos a importar que no existe
+12.- Prueba unitaria04 - Comprobar que los datos se leen bien
 
