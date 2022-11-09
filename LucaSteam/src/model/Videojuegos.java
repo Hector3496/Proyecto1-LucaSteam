@@ -10,12 +10,15 @@ import java.util.Objects;
 public class Videojuegos {
 	
 	//atributos
-	String nombre;
-	String year;
-	Genero genero;
-	Plataforma plataforma;
+	private String orden;
+	private String nombre;
+	private String year;
+	private Genero genero;
+	private Plataforma plataforma;
+	private String editor;
 	
 	public Videojuegos() {
+		
 	}
 
 	public Videojuegos(String nombre, String year) {
@@ -28,6 +31,33 @@ public class Videojuegos {
 		this.year = year;
 		this.genero = genero;
 		this.plataforma = plataforma;
+	}
+
+	public Videojuegos(String orden, String nombre, String year, Genero genero, Plataforma plataforma) {
+		super();
+		this.orden = orden;
+		this.nombre = nombre;
+		this.year = year;
+		this.genero = genero;
+		this.plataforma = plataforma;
+	}
+
+	public Videojuegos(String orden, String nombre, String year, Genero genero, Plataforma plataforma, String editor) {
+		super();
+		this.orden = orden;
+		this.nombre = nombre;
+		this.year = year;
+		this.genero = genero;
+		this.plataforma = plataforma;
+		this.editor = editor;
+	}
+
+	public String getOrden() {
+		return orden;
+	}
+
+	public void setOrden(String orden) {
+		this.orden = orden;
 	}
 
 	public String getNombre() {
@@ -62,6 +92,14 @@ public class Videojuegos {
 		this.plataforma = plataforma;
 	}
 
+	public String getEditor() {
+		return editor;
+	}
+
+	public void setEditor(String editor) {
+		this.editor = editor;
+	}
+
 	@Override
 	public int hashCode() {
 		return Objects.hash(genero, nombre, plataforma, year);
@@ -82,8 +120,8 @@ public class Videojuegos {
 
 	@Override
 	public String toString() {
-		return "ListadoVideojuegosImpl [nombre=" + nombre + ", year=" + year + ", genero=" + genero + ", plataforma="
-				+ plataforma + "]";
+		return "Videojuegos [orden=" + orden + ", nombre=" + nombre + ", year=" + year + ", genero=" + genero
+				+ ", plataforma=" + plataforma + ", editor=" + editor + "]";
 	}
 	
 }
