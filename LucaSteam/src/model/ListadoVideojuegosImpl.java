@@ -8,9 +8,11 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import datos.Datos;
+
 public class ListadoVideojuegosImpl{
 	
-	private ArrayList<Videojuegos> videojuegos;
+	public static ArrayList<Videojuegos> videojuegos;
 	
 	public ListadoVideojuegosImpl() {
 		this.videojuegos = new ArrayList<>();
@@ -79,8 +81,11 @@ public class ListadoVideojuegosImpl{
 			this.videojuegos.add(v1);
 		}
 	}
-	public void altaVideojuego() {
-		Videojuegos v = new Videojuegos();
+	public static void mostrarListado() {
+		Datos.leerfichero(videojuegos);
+		
 		
 	}
+	
+	
 }

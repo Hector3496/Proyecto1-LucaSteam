@@ -1,8 +1,8 @@
 package gui;
 
+import model.ListadoVideojuegosImpl;
 import java.util.Scanner;
 
-import model.ListadoVideojuegosImpl;
 
 public class AbrirTienda {
 
@@ -49,12 +49,15 @@ public class AbrirTienda {
 			case 2:
 				
 				//Llamamos al metodo que LISTE LOS DATOS DEL ARCHIVO
+				//ListadoVideojuegosImpl aaa = new ListadoVideojuegosImpl();
+				listado.mostrarListado();
 				System.out.println("case2");
 				break;
 			case 3:
 				
 				//llamamos al metodo A�ADIR UN VIDEOJUEGO A LA LISTA (pero habria que comprobar cual es el ultimo dato )
 				System.out.println("case3");
+				
 				break;
 				
 			case 4:
