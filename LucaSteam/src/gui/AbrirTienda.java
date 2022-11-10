@@ -59,11 +59,9 @@ public class AbrirTienda {
 			case 4:
 				salir = false;
 				break;
-				default: System.out.println("El número no es correcto");
+			default: System.out.println("El número no es correcto");
 			}
 		} while(salir);
-		
-		
-		
+		System.out.println("Ha salido de la tienda");
 	}
 }
