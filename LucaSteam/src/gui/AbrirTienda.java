@@ -49,7 +49,7 @@ public class AbrirTienda {
 			case 2:
 				
 				//Llamamos al metodo que LISTE LOS DATOS DEL ARCHIVO
-				System.out.println("case2");
+				System.out.println("case dos");
 				break;
 			case 3:
 				
