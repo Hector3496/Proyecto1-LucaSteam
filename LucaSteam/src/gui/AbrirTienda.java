@@ -28,11 +28,7 @@ public class AbrirTienda {
 		System.out.println(numeromenu);
 		return numeromenu;
 		} catch (Exception e) {
-<<<<<<< HEAD
 			
-=======
-			System.out.println("El dato no es correcto");
->>>>>>> 69c1307c2cbed2b080b3f581ae04e4480d539d6b
 			return -1;
 		}
 	}
@@ -53,7 +49,7 @@ public class AbrirTienda {
 			case 2:
 				
 				//Llamamos al metodo que LISTE LOS DATOS DEL ARCHIVO
-				System.out.println("case dos");
+				System.out.println("case2");
 				break;
 			case 3:
 				
@@ -64,7 +60,6 @@ public class AbrirTienda {
 			case 4:
 				salir = false;
 				break;
-<<<<<<< HEAD
 				
 			case -1:
 				System.out.println("El dato no es correcto");
@@ -74,11 +69,5 @@ public class AbrirTienda {
 			}
 		} while(salir);
 				
-=======
-			default: System.out.println("El número no es correcto");
-			}
-		} while(salir);
-		System.out.println("Ha salido de la tienda");
->>>>>>> 69c1307c2cbed2b080b3f581ae04e4480d539d6b
 	}
 }
