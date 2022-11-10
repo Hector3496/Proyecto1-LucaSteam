@@ -49,9 +49,7 @@ public class ListadoVideojuegosImpl{
 				}
 			}
 		}
-		for(Videojuegos pos: this.videojuegos) {
-			System.out.println(pos.toString());
-		}
+		System.out.println("Ha importado el fichero " + name);
 	}
 	public void recorrerFichero(String line, BufferedReader br) throws IOException {
 		
@@ -80,5 +78,9 @@ public class ListadoVideojuegosImpl{
 			line = br.readLine();
 			this.videojuegos.add(v1);
 		}
+	}
+	public void altaVideojuego() {
+		Videojuegos v = new Videojuegos();
+		
 	}
 }
