@@ -15,12 +15,22 @@ public class AbrirTienda {
 	int numeromenu;
 	public static int pedirdatomenu() {
 		
-			Scanner sc=new Scanner(System.in);
-			System.out.println("Introduce una opcion: ");
-			int numeromenu=sc.nextInt();
-			//sc.close();
-			System.out.println(numeromenu);
-			return numeromenu;
+		try {		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Introduce una opcion: ");
+		System.out.println("1. Importar fichero");
+		System.out.println("2. Leer fichero");
+		System.out.println("3. Añadir videojuego");
+		System.out.println("4. Salir");
+		
+		int numeromenu=sc.nextInt();
+		//sc.close();
+		System.out.println(numeromenu);
+		return numeromenu;
+		} catch (Exception e) {
+			System.out.println("El dato no es correcto");
+			return -1;
+		}
 	}
 	
 	//Metodo recoje el numero y va a su CASE
@@ -48,6 +58,8 @@ public class AbrirTienda {
 				break;
 			case 4:
 				salir = false;
+				break;
+				default: System.out.println("El número no es correcto");
 			}
 		} while(salir);
 		
