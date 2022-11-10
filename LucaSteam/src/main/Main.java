@@ -10,14 +10,7 @@ public class Main {
 
 	
 	public static void main(String[] args) {
-		AbrirTienda aa=new AbrirTienda();
-		
-		
-		aa.pedirdatomenu();
-		
-		
-				
-		aa.datoelegidomenu();
+		AbrirTienda.abrir();
 		
 		//aa.abrir();
 		//aa.pedirdatomenu();
