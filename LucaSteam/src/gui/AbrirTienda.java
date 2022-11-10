@@ -41,23 +41,19 @@ public class AbrirTienda {
 			switch(numeromenu) {
 			
 			case 1:
-				
 				//llamaremos al metodo que IMPORTE EL ARCHIVO
-				System.out.println("case1");
 				listado.importarFichero("vgsales");
 				break;
 			case 2:
-				
 				//Llamamos al metodo que LISTE LOS DATOS DEL ARCHIVO
 				//ListadoVideojuegosImpl aaa = new ListadoVideojuegosImpl();
 				listado.mostrarListado();
-				System.out.println("case2");
+				System.out.println("Listado mostrado!");
 				break;
 			case 3:
-				
 				//llamamos al metodo A�ADIR UN VIDEOJUEGO A LA LISTA (pero habria que comprobar cual es el ultimo dato )
-				System.out.println("case3");
-				
+				listado.altaVideojuego();
+				System.out.println("Ha introducido un nuevo videojuego!");
 				break;
 				
 			case 4:

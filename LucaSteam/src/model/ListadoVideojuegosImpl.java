@@ -61,7 +61,16 @@ public class ListadoVideojuegosImpl{
 		while(line != null) {
 			Videojuegos v1 = new Videojuegos();
 			String[] list = line.split(",");
-			v1.setOrden(list[0]);
+			String num;
+			if(videojuegos.isEmpty()) {
+				v1.setOrden(list[0]);
+			} else {
+				num = list[0];
+				int n = Integer.parseInt(num);
+				n++;
+				String orden= Integer.toString(n);
+				v1.setOrden(orden);
+			}
 			v1.setNombre(list[1]);
 			for(int i=0; i<Plataforma.values().length; i++) {
 				String pl = Plataforma.values()[i].toString();
@@ -83,9 +92,9 @@ public class ListadoVideojuegosImpl{
 	}
 	public static void mostrarListado() {
 		Datos.leerfichero(videojuegos);
-		
-		
 	}
-	
+	public static void altaVideojuego() {
+		Datos.altaVidejuego(videojuegos);
+	}
 	
 }

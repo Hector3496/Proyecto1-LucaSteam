@@ -1,7 +1,3 @@
 /datos/
-/exceptions/
-/gui/
-/main/
 /model/
-/module-info.class
-/services/
+/gui/
