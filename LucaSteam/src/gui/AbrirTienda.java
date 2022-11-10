@@ -28,7 +28,7 @@ public class AbrirTienda {
 		System.out.println(numeromenu);
 		return numeromenu;
 		} catch (Exception e) {
-			System.out.println("El dato no es correcto");
+			
 			return -1;
 		}
 	}
@@ -56,14 +56,18 @@ public class AbrirTienda {
 				//llamamos al metodo A�ADIR UN VIDEOJUEGO A LA LISTA (pero habria que comprobar cual es el ultimo dato )
 				System.out.println("case3");
 				break;
+				
 			case 4:
 				salir = false;
 				break;
-				default: System.out.println("El número no es correcto");
+				
+			case -1:
+				System.out.println("El dato no es correcto");
+				break;
+				
+			default: System.out.println("El número no es correcto");
 			}
 		} while(salir);
-		
-		
-		
+				
 	}
 }
