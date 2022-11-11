@@ -2,6 +2,8 @@ package utils;
 
 import java.util.Scanner;
 
+//Clase para metodos que introduce datos por consola y los devuelve, 
+//el metodo a utilizar dependera de si es Integer o String
 public class LecturaDatos {
 
 	public static int leerInt(String msg) {

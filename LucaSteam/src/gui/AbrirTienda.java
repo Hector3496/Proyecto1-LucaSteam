@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class AbrirTienda {
 
+	//Metodo para implementr el ArrayList de videojuegos creando objetos
 	public static void abrir() {
 		ListadoVideojuegosImpl listado = new ListadoVideojuegosImpl();
 		datoelegidomenu(listado);
@@ -13,6 +14,8 @@ public class AbrirTienda {
 	
 	//Metodo para pedir un numero del menu y que te devuelva el numero
 	int numeromenu;
+	
+	//Metodo para imprimir el mennu en consola, mostrando las opciones
 	public static int pedirdatomenu() {
 		
 		try {		

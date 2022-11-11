@@ -2,11 +2,8 @@ package model;
 
 import java.util.Objects;
 
-/**
- * 
- * @author Susana Diaz
- */
 
+//Clase que construye el objeto videojuego para introducirlo en nuestro ArrayList
 public class Videojuegos {
 	
 	//atributos

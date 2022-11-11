@@ -13,6 +13,7 @@ public class Datos {
 		// TODO Auto-generated constructor stub
 	}
 
+	//Metodo para leer el fichero a partir de introducirle un ArrayList
 	public static void leerfichero(ArrayList<Videojuegos> Listaactual) {
 	
 		for(Videojuegos v:Listaactual) {
@@ -20,6 +21,8 @@ public class Datos {
 			
 		}
 	}
+	
+	//Metodo apra dar de alta un nuevo videojuego dentro de un ArrayList
 	public static void altaVidejuego(ArrayList<Videojuegos> Listaactual) {
 		Videojuegos v = new Videojuegos();
 		String num;

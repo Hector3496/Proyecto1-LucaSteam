@@ -31,6 +31,7 @@ public class ListadoVideojuegosImpl{
 		this.videojuegos = videojuegos;
 	}
 
+	//Metodo paa importar el fichero.csv
 	public void importarFichero(String name) {
 		File fich1 = new File(name + ".csv");
 		BufferedReader br = null;
@@ -53,6 +54,9 @@ public class ListadoVideojuegosImpl{
 		}
 		System.out.println("Ha importado el fichero " + name);
 	}
+	
+	//Metodo para recorrer el fichero importado y que guarde los
+	//datos dentro del ArrayList
 	public void recorrerFichero(String line, BufferedReader br) throws IOException {
 		
 		line = br.readLine();
@@ -90,9 +94,15 @@ public class ListadoVideojuegosImpl{
 			this.videojuegos.add(v1);
 		}
 	}
+	/*Metodo para leer y mostrar el listado  llamando a su metodo
+	correspondiente del paquete datos , pasandole como parametro
+	el Arraylist*/
 	public static void mostrarListado() {
 		Datos.leerfichero(videojuegos);
 	}
+	/*Metodo para llamar altavideojuego llamando a su metodo
+	correspondiente del paquete datos , pasandole como parametro
+	el Arraylist*/
 	public static void altaVideojuego() {
 		Datos.altaVidejuego(videojuegos);
 	}
